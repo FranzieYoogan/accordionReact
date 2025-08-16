@@ -1,8 +1,17 @@
 import './styles.css'
 import { useState } from "react";
+
+type AccordionItems = {
+
+    id: string;
+    question: string;
+    answer: string;
+
+}
+
 function Accordion() {
 
-    const data = [
+    const data:AccordionItems[] = [
 
         {
 
